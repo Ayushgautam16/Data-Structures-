@@ -1,0 +1,24 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+void explainPairs(){
+    pair<int,int> p ={1,3};
+    cout<<p.first<<" "<<p.second<<endl;
+
+    pair<int,pair<int,int>> s= {1,{3,4}};
+    cout<<s.first<<" "<<s.second.second<<" "<< s.second.first<<endl;
+
+    pair<int,int>arr[]= {{1,2},{2,5},{5,2}};
+    cout<<arr[1].second<<endl;
+}
+int main(){
+
+    explainPairs();
+return 0;
+}
+
+
+// op---->
+// 1 3
+// 1 4 3
+// 5
