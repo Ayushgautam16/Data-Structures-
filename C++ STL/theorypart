@@ -44,3 +44,7 @@ vector<int>::iterator
 -->> count 
 -->> friendnext permutaions
 -->> pree_permutaion-->> 
+
+
+4. *******functors
+classes which can act as functions
