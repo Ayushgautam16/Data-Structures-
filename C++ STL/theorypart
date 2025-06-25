@@ -1,0 +1,46 @@
+
+
+*********lecture form the luv stl********
+
+1.  ******container******
+-->sequential container
+1. vectors stack 
+2. quesues
+3. pair(not a container)
+
+->ordered container
+
+-->maps
+1. multimap
+2. set 
+3. multiset
+
+-->unordered 
+1. unorderd map 
+2. unordered set 
+
+nested containers
+
+--> vector<vector<int>>
+--> map<int,vector <int>>
+--> set<pair<int,string>>
+--> vector<map<int,cet<int>>
+
+2. ********>iterators
+point to memory address of containers used as the substitute of pointers
+
+begin(), end()
+vector<int>::iterator
+
+3.*********algorithm
+
+-->> upper bound 
+-->> lower bound 
+-->> sort (comparator)
+-->> max_element --> 
+-->> min_element1. 
+-->> accumulator
+-->> ve verse
+-->> count 
+-->> friendnext permutaions
+-->> pree_permutaion-->> 
