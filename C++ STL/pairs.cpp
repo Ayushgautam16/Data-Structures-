@@ -27,7 +27,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-pair<int, string> p;
+// pair<int, string> p;
 
 // 2 tareeka hai refrence ke liye
 // p.first = 3;
