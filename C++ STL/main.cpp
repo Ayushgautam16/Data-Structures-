@@ -13,7 +13,7 @@ int main(){
     print();
     int a, b;
 
-    cin>>a;
+    // cin>>a;
     // cin>>b;
    
     // int s= sum(a,b);
