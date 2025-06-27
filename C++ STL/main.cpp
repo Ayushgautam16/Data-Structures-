@@ -14,7 +14,7 @@ int main(){
     int a, b;
 
     cin>>a;
-    cin>>b;
+    // cin>>b;
    
     // int s= sum(a,b);
     // cout<<s;
