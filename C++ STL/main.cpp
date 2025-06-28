@@ -11,7 +11,7 @@ int sum(int a, int b){
 
 int main(){
     print();
-    int a, b;
+    // int a, b;
 
     // cin>>a;
     // cin>>b;
