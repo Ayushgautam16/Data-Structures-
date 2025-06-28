@@ -10,7 +10,7 @@ int sum(int a, int b){
 }
 
 int main(){
-    print();
+    // print();
     // int a, b;
 
     // cin>>a;
