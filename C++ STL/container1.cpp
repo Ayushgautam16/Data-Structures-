@@ -15,7 +15,7 @@ using namespace std;
 
 void explainvector(){
      
-    vector<int> v;
+    // vector<int> v;
 // Creates an empty vector of int.
 // You can now use push_back to add elements.
     v.push_back(1);
