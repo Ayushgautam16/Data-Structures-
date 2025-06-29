@@ -19,7 +19,7 @@ void explainvector(){
 // Creates an empty vector of int.
 // You can now use push_back to add elements.
     // v.push_back(1);
-    v.push_back(2);
+    // v.push_back(2);
 
 // v = {1, 2}
 
