@@ -3,7 +3,7 @@ using namespace std;
 int main(){
 // 2 d array 
 // row and column 
-int arr[3][5];
+// int arr[3][5];
 
 // arr [3][4] = 34;
 // arr [2][4] = 3;
