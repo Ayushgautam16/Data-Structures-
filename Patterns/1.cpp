@@ -27,7 +27,7 @@ void printStar(int n){
         // cout<<"*";
 
     }
-    cout<<endl;
+    // cout<<endl;
 }
 
 }
