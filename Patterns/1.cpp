@@ -36,7 +36,7 @@ int main(){
     // int n;
     // cout<<"enter the num u wanted to print the star: ";
     // cin>>n;
-    printStar(n);
+    // printStar(n);
 
 return 0;
 }
