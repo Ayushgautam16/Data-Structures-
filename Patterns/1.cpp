@@ -38,7 +38,7 @@ int main(){
     // cin>>n;
     // printStar(n);
 
-return 0;
+// return 0;
 }
 
 
