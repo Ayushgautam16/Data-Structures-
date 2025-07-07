@@ -23,7 +23,7 @@ void explainvector(){
 
 // v = {1, 2}
 
-    v.emplace_back(4);
+    // v.emplace_back(4);
 
 //     Also adds 4 at the end — but more efficient than push_back.
 // Internally constructs the element in place.
