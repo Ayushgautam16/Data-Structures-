@@ -46,7 +46,7 @@ void explainvector(){
 // Creates a vector v with 5 elements, all initialized to 100.
 // // v = {100, 100, 100, 100, 100}
 
-    vector<int> v(5);
+    // vector<int> v(5);
     // Creates a vector of size 5, but default-initialized with 0s.
 
 
