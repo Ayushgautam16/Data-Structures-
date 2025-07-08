@@ -42,7 +42,7 @@ void explainvector(){
 
 // valid for vector<pair<int,int>>
 
-    // vector<int> v(5,100)
+    // vector<int> v(5,100);
 // Creates a vector v with 5 elements, all initialized to 100.
 // // v = {100, 100, 100, 100, 100}
 
