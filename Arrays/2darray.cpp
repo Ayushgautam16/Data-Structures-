@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int main(){
+// int main(){
 // 2 d array 
 // row and column 
 // int arr[3][5];
