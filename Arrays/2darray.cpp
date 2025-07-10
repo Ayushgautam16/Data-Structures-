@@ -1,5 +1,5 @@
 #include<iostream>
-using namespace std;
+// using namespace std;
 // int main(){
 // 2 d array 
 // row and column 
