@@ -3,7 +3,7 @@ using namespace std;
 
 void print(){
     cout<<"raj";
-}
+// }
 
 // int sum(int a, int b){
     // return a+b;
