@@ -43,9 +43,9 @@ Each section builds on the previous one, covering topics like:
 | Topic                        | Status       | Problems Solved |
 |-----------------------------|--------------|------------------|
 | Introduction + Math         | ✅ Completed  | 12/12            |
-| Recursion Basics            | 🔄 In Progress| 4/9              |
-| Arrays & 2D Arrays          | ⏳ Planned    | 0/18             |
-| Searching & Sorting         | ⏳ Planned    | 0/19             |
+| Recursion Basics            | ✅ Completed  | 9/9              |
+| Arrays & 2D Arrays          | ✅ Completed  | 18/18             |
+| Searching & Sorting         | 🔄 In Progress| 4/19             |
 | Hashing & Prefix Sums       | ⏳ Planned    | 0/15             |
 | Linked List                 | ⏳ Planned    | 0/10             |
 | Stacks & Queues             | ⏳ Planned    | 0/12             |
