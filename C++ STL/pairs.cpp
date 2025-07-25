@@ -39,8 +39,8 @@ p1.first =3;
 cout<<p.first<<" "<<p.second<<endl;
 
 
-// int a[]={1,23,4};
-// int b[]={1,23,4};
+int a[]={1,23,4};
+int b[]={1,23,4};
 
 pair<int,int> p_array[3];
  p_array[3] ={1,2};
