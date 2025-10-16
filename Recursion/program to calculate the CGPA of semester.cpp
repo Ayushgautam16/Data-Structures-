@@ -24,5 +24,5 @@ int main() {
 //     cout << "\nYour current CGPA is: " << cgpa << endl;
 //     cout << "Equivalent Percentage: " << cgpa * 10 << "%" << endl;
 
-//     return 0;
-// }
+    return 0;
+}
