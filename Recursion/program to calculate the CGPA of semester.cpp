@@ -21,8 +21,8 @@ int main() {
     }
 
     double cgpa = totalWeightedSGPA / totalCredits;
-    cout << "\nYour current CGPA is: " << cgpa << endl;
-    cout << "Equivalent Percentage: " << cgpa * 10 << "%" << endl;
+//     cout << "\nYour current CGPA is: " << cgpa << endl;
+//     cout << "Equivalent Percentage: " << cgpa * 10 << "%" << endl;
 
-    return 0;
-}
+//     return 0;
+// }
