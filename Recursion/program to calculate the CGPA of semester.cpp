@@ -10,9 +10,9 @@ int main() {
     vector<double> sgpa(m), credits(m);
     double totalWeightedSGPA = 0, totalCredits = 0;
 
-    // for (int i = 0; i < m; i++) {
-    //     cout << "Enter SGPA for semester " << i + 1 << ": ";
-    //     cin >> sgpa[i];
+    for (int i = 0; i < m; i++) {
+        cout << "Enter SGPA for semester " << i + 1 << ": ";
+        cin >> sgpa[i];
         cout << "Enter total credits for semester " << i + 1 << ": ";
         cin >> credits[i];
 
