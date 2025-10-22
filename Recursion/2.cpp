@@ -18,6 +18,6 @@ return 0;
 }
 
 
- // output :-
-// enter the value till u want to iterate: 6
-// 123456
+ output :-
+enter the value till u want to iterate: 6
+123456
