@@ -12,7 +12,7 @@ int main(){
     int n;
     cout<<("enter the value till u want to iterate: ");
     cin>>(n);
-    printnum(1, n);
+    // printnum(1, n);
 
 return 0;
 }
