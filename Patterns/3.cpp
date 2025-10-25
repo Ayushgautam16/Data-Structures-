@@ -7,7 +7,7 @@
 //         for(int j=0;j<=i ; j++){
 //             cout<< j<<" ";
 //         }
-        // cout<<endl;1
+        cout<<endl;1
 //     }
 
 // }
