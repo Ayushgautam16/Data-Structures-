@@ -11,7 +11,7 @@
 // int main(){
 // vector<int> v;
 // int n ;
-// cin>>n;
+cin>>n;
 // for(int i=0;i<n;i++){
 //     int s;
 //     cin>>s;
@@ -24,7 +24,7 @@
 // }
 
 
-#include<bits/stdc++.h>
+// #include<bits/stdc++.h>
 using namespace std;
 int main(){
 vector<int,string>v ={13,334,5,};
