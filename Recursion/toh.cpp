@@ -17,3 +17,4 @@ int main() {
     cin >> n;
     toh(n, 'A', 'C', 'B');
     return 0;
+}
