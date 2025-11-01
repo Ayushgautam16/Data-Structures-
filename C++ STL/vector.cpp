@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
-// using namespace std;
+using namespace std;
 
 // void printVec(vector<int>v){
 //     cout<<"size"<<v.size()<<endl;
