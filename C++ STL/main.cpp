@@ -2,7 +2,7 @@
 using namespace std;
 
 void print(){
-    cout<<"raj";
+    // cout<<"raj";
 // }
 
 // int sum(int a, int b){
