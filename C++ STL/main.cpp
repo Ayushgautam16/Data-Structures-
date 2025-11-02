@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void print(){
+// void print(){
     // cout<<"raj";
 // }
 
