@@ -27,11 +27,5 @@ public:
             if (s[left] == '0') {
                 sid++;
             } else {
-               
-                res += zero[sid] - left;
-                ones--;
-            }
-        }
-        return res;
-    }
+
 };
