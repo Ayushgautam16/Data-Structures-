@@ -31,7 +31,9 @@ public:
                 ones--;
     }
         }
-
+        return res;
+    }
+};
         
 
                
