@@ -28,10 +28,4 @@ public:
                 sid++;
             } else {
                
-                res += zero[sid] - left;
-                ones--;
-            }
-        }
-        return res;
-    }
-};
+ 
