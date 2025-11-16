@@ -29,7 +29,8 @@ public:
             } else {
                res += zero[sid] - left;
                 ones--;
-        
+    }
+   
 
                
  
