@@ -24,7 +24,5 @@ public:
                     res += max(q - p - (cnt0 * cnt0 - cnt1), 0);
                 }
             }
-            
+if (s[left] == '0') {
 
-               
- 
