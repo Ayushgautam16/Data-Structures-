@@ -29,7 +29,10 @@ if (s[left] == '0') {
             } else {
                res += zero[sid] - left;
                 ones--;
-   
+       }
+        }
+        return res;
+ 
             
 
                
