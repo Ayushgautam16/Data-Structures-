@@ -24,17 +24,7 @@ public:
                     res += max(q - p - (cnt0 * cnt0 - cnt1), 0);
                 }
             }
-if (s[left] == '0') {
-                sid++;
-            } else {
-               res += zero[sid] - left;
-                ones--;
-       }
-        }
-        return res;
-   }
-};
-     
+
  
             
 
