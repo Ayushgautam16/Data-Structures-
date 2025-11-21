@@ -30,6 +30,12 @@ if (s[left] == '0') {
                res += zero[sid] - left;
                 ones--;
        }
+        }
+        return res;
+   }
+};
+
+
 
 
      
