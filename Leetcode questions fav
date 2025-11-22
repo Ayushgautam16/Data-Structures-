@@ -36,7 +36,9 @@ if (s[left] == '0') {
 };
 
 
-
+class Solution {
+public:
+    int minimumOperations(vector<int>& nums) {
 
      
  
