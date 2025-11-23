@@ -78,6 +78,8 @@ public:
             int r1 = min1;
             int r2 = (min2 == INT_MAX || min22 == INT_MAX) ? INT_MAX : min2 + min22;
     
- 
+         int remove = min(r1, r2);
+            return remove == INT_MAX ? 0 : sum - remove;
+   
 
 
