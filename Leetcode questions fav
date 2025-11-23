@@ -49,9 +49,30 @@ public:
 };
 
  
-            
+class Solution {
+public:
+    int maxSumDivThree(vector<int>& nums) {
+        int sum = 0;
 
-               
- 
+        int min1 = INT_MAX, min2 = INT_MAX;
+        int min11 = INT_MAX, min22 = INT_MAX;
+
+        for (int x : nums) {
+            sum += x;
+            int r = x % 3;
+
+            if (r == 1) {
+                if (x < min1) { min11 = min1; min1 = x; }
+                else if (x < min11) min11 = x;
+            } else if (r == 2) {
+                if (x < min2) { min22 = min2; min2 = x; }
+                else if (x < min22) min22 = x;
+            }
+        }
+
+        int rem = sum % 3;
+
+        if (rem == 0) return sum;
+
 
 
