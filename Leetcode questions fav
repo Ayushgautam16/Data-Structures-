@@ -89,5 +89,6 @@ public:
          return remove == INT_MAX ? 0 : sum - remove;
     
     }
-      
+          }
+};      
 
