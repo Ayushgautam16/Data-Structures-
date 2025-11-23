@@ -82,7 +82,9 @@ public:
             return remove == INT_MAX ? 0 : sum - remove;
            } else {
             int r1 = min2;
-  
+            int r2 = (min1 == INT_MAX || min11 == INT_MAX) ? INT_MAX : min1 + min11;
+            int remove = min(r1, r2);
+   
             
 
 
