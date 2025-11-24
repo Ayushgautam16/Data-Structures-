@@ -92,3 +92,12 @@ public:
           }
 };      
 
+
+
+class Solution {
+public:
+    vector<bool> prefixesDivBy5(vector<int>& nums) {
+        int val = 0;
+        vector<bool> res;
+
+
