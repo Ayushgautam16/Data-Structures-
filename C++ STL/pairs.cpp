@@ -45,8 +45,8 @@ int b[]={1,23,4};
 pair<int,int> p_array[3];
  p_array[3] ={1,2};
  p_array[3] ={1,2};
- p_array[3] ={1,2};
- p_array[3] ={1,2};
+ // p_array[3] ={1,2};
+ // p_array[3] ={1,2};
  
 
 // return 0;
