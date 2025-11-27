@@ -109,4 +109,12 @@ public:
     }
 };
 
+using ll = long long;
+class Solution {
+public:
+    ll maxSubarraySum(vector<int>& nums, int k) {       
+        ll prefSum = 0;
+        ll subMax = LLONG_MIN;
+ 
+
 
