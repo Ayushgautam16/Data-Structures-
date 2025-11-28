@@ -138,3 +138,5 @@ int ans = 0;
 while(!S.empty()){
     int u = S.top();
     S.pop();
+    if(sum[u] % k == 0){
+  
