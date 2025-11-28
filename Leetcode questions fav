@@ -130,3 +130,9 @@ public:
     }
 };
 
+vector<long long> sum(n);
+for(int i = 0; i < n; i ++){
+    sum[i] = values[i];
+}
+int ans = 0;
+while(!S.empty()){
