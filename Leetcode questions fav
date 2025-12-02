@@ -191,3 +191,9 @@ public:
         for(int i=1; i<n; i++){
             if (prev==y[i]) f++;
             else{
+
+                c=f*(f-1LL)/2LL;
+                sum+=c;
+                c2+=c*c;
+                f=1;
+    
