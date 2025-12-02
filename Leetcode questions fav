@@ -177,3 +177,12 @@ public:
         return total / n;
     }
 };
+
+class Solution {
+public:
+    static int countTrapezoids(vector<vector<int>>& points) {
+        const long long mod=1e9+7, n=points.size();
+        int* y=(int*)alloca(n*sizeof(int));
+        int i=0;
+        for(auto& p: points) y[i++]=p[1];
+        
