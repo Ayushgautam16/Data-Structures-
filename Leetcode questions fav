@@ -196,4 +196,13 @@ public:
                 sum+=c;
                 c2+=c*c;
                 f=1;
-    
+                prev=y[i];
+            }
+        }
+        c=f*(f-1LL)/2LL;
+        sum+=c;
+        c2+=c*c;
+        return (sum*sum-c2)/2%mod;
+
+    }
+};
