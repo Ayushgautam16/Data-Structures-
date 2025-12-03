@@ -256,4 +256,14 @@ public:
             }
             map<float, int> cnt;
             for (float k : mts) {
-             
+                cnt[k]++;
+            }
+            int sum = 0;
+            for (auto& [_, count] : cnt) {
+                ans -= sum * count;
+                sum += count;
+            }
+        }
+        return ans;
+    }
+};
