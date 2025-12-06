@@ -293,4 +293,7 @@ public:
             while (*st.rbegin() - *st.begin() > k) {
                 st.erase(st.find(nums[l]));
                 l++;
-           
+            }
+
+            dp[r+1] = (pre[r] - (l > 0 ? pre[l-1] : 0) + MOD) % MOD;
+
