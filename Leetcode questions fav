@@ -289,3 +289,8 @@ public:
 
         for (int r = 0; r < n; r++) {
             st.insert(nums[r]);
+
+            while (*st.rbegin() - *st.begin() > k) {
+                st.erase(st.find(nums[l]));
+                l++;
+           
