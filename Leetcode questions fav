@@ -298,4 +298,6 @@ public:
             dp[r+1] = (pre[r] - (l > 0 ? pre[l-1] : 0) + MOD) % MOD;
             pre[r+1] = (pre[r] + dp[r+1]) % MOD;
         }
-
+class Solution:
+    def countOdds(self, low: int, high: int) -> int:
+        return (high + 1) // 2 - (low // 2)
