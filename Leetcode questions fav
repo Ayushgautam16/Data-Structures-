@@ -1,3 +1,9 @@
+class Solution {
+    static final int MOD = 1_000_000_007;
+
+    public int countPermutations(int[] comp) {
+        int n = comp.length;
+        int first = comp[0];
 
 
 
