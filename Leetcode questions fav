@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 class Solution(object):
     def countTriples(self, n):
         """
