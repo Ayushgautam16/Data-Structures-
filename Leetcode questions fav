@@ -410,14 +410,3 @@ public:
         for (int r = 0; r < n; r++) {
             st.insert(nums[r]);
 
-            while (*st.rbegin() - *st.begin() > k) {
-                st.erase(st.find(nums[l]));
-                l++;
-            }
-
-            dp[r+1] = (pre[r] - (l > 0 ? pre[l-1] : 0) + MOD) % MOD;
-            pre[r+1] = (pre[r] + dp[r+1]) % MOD;
-        }
-class Solution:
-    def countOdds(self, low: int, high: int) -> int:
-        return (high + 1) // 2 - (low // 2)
