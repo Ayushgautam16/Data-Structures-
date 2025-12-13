@@ -452,25 +452,3 @@ public:
     }
 };
 
-class Solution:
-    def countCollisions(self, directions: str) -> int:
-    
-    directions = directions.lstrip("L")
-        directions = directions.rstrip("R")
-        return len(directions) - directions.count("S")
-
-
-class Solution {
-public:
-    int countPartitions(vector<int>& nums, int k) {
-        const long long MOD = 1e9+7;
-        int n = nums.size();
-        vector<long long> dp(n+1), pre(n+1);
-        multiset<int> st;
-
-        dp[0] = pre[0] = 1;
-        int l = 0;
-
-        for (int r = 0; r < n; r++) {
-            st.insert(nums[r]);
-
