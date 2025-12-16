@@ -2,6 +2,12 @@
 public:
     vector<string> validateCoupons(vector<string>& code, vector<string>& businessLine, vector<bool>& isActive) {
         int n = code.size();
+app/
+ ┣ components/        # Reusable UI components
+ ┣ pages/             # Application routes
+ ┣ api/               # Backend APIs (bids, users, listings)
+ ┣ styles/            # Tailwind CSS configuration
+ ┗ page.tsx           # Landing page
 
         // Mapping from business line name to its required sort order
         unordered_map<string, int> businessLineSortOrder = {
