@@ -1,3 +1,9 @@
+app/
+ ┣ components/        # Reusable UI components
+ ┣ pages/             # Application routes
+ ┣ api/               # Backend APIs (bids, users, listings)
+ ┣ styles/            # Tailwind CSS configuration
+ ┗ page.tsx           # Landing page
 class Solution {
 public:
     vector<string> validateCoupons(vector<string>& code, vector<string>& businessLine, vector<bool>& isActive) {
