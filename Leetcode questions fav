@@ -189,7 +189,7 @@ class Solution(object):
         return cnt%MOD   
        
         
-        return r
+     
         int ones = n - zero.size(); 
         zero.push_back(n); 
 
