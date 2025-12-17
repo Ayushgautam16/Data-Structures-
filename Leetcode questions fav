@@ -3,18 +3,6 @@ public:
     vector<string> validateCoupons(vector<string>& code, vector<string>& businessLine, vector<bool>& isActive) {
         int n = code.size();
 
-
-        // Mapping from business line name to its required sort order
-        unordered_map<string, int> businessLineSortOrder = {
-            {"electronics", 0},
-            {"grocery", 1},
-            {"pharmacy", 2},
-            {"restaurant", 3}
-        };class Solution {
-public:
-    vector<string> validateCoupons(vector<string>& code, vector<string>& businessLine, vector<bool>& isActive) {
-        int n = code.size();
-
         // Mapping from business line name to its required sort order
         unordered_map<string, int> businessLineSortOrder = {
             {"electronics", 0},
