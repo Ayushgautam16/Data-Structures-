@@ -1,8 +1,7 @@
 
 
 
-        // Store each valid coupon with the information needed for sorting
-        // First field: (business line order, code), Second field: code string
+    
         vector<pair<pair<int, string>, string>> sortableCoupons;
 
         for (int i = 0; i < n; ++i) {
