@@ -457,7 +457,6 @@ public:
         for (auto& [_, mts] : midToSlope) {
             if (mts.size() == 1) {
                 continue;
-            }
             map<float, int> cnt;
             for (float k : mts) {
                 cnt[k]++;
