@@ -1,5 +1,4 @@
 
-};
 Data dp[1000][501];
 class Solution {
 public:
