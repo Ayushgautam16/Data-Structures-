@@ -1,7 +1,4 @@
-struct Data{
-    long long profit=0, buy=0, sell=0;
-    Data(long long profit=0, long long buy=0, long long sell=0):
-        profit(profit), buy(buy), sell(sell) {}
+
 };
 Data dp[1000][501];
 class Solution {
