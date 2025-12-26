@@ -1,9 +1,4 @@
 
-        
-        return bestTime;
-    }
-};
-    
         pq.emplace(0, firstPerson);
         while(!pq.empty()){
             auto [s, x]=pq.top();
