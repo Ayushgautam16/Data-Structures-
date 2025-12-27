@@ -1,8 +1,6 @@
 
 
-         e.top(); free.pop();
-                busy.push({m[1], r});
-                cnt[r]++;
+      
             } else {
                 auto [t, r] = busy.top(); busy.pop();
                 busy.push({t + d, r});
