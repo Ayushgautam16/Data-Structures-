@@ -1,12 +1,7 @@
 
 
       
-            } else {
-                auto [t, r] = busy.top(); busy.pop();
-                busy.push({t + d, r});
-                cnt[r]++;
-            }
-        }
+          
 
         return max_element(cnt.begin(), cnt.end()) - cnt.begin();
     }
