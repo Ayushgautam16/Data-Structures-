@@ -1,7 +1,6 @@
 
 
-            if (!free.empty()) {
-                int r = free.top(); free.pop();
+         e.top(); free.pop();
                 busy.push({m[1], r});
                 cnt[r]++;
             } else {
