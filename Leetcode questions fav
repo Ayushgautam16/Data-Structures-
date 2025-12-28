@@ -1,9 +1,6 @@
 
 
-            } else
-                j++;
-        }
-
+           
         return res;
     }
 };
