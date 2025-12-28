@@ -1,15 +1,4 @@
-
-
-           
-        return res;
-    }
-};
-
-
-      
-          
-
-};class Solution {
+class Solution {
 public:
     int bestClosingTime(string customers) {
         int bestTime = 0;
