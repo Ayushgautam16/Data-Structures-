@@ -1,5 +1,4 @@
-// This version has a pruning Check
-using u8=unsigned char;
+
 
 u8 pattern[36];
 const int N=117649; // 7^6
