@@ -1,5 +1,20 @@
 class Solution {
 public:
+    vector<int> plusOne(vector<int>& digits) {
+        for (int i = digits.size() - 1; i >= 0; i--) {
+            if (digits[i] != 9) {
+                digits[i] += 1;
+                return digits;
+            }
+            digits[i] = 0;
+        }
+        digits.insert(digits.begin(), 1);
+        return digits;     
+    }
+};
+
+class Solution {
+public:
     bool isMagicSquare(vector<vector<int>>& grid, int r, int c) {
         if (grid[r+1][c+1] != 5) return false;// centre must be 5
 
