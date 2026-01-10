@@ -1,12 +1,6 @@
 
 
-        int total = 0;
-        for (char c : s1) total += c;
-        for (char c : s2) total += c;
-
-        return total - 2 * dp[n][m];
-    }
-};class Solution {
+     class Solution {
 public:
     vector<int> nums1, nums2;
     vector<vector<int>> memo;
