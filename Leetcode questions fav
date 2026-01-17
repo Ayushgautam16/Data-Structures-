@@ -1,4 +1,4 @@
-  int maxDotProduct(vector<int>& a, vector<int>& b) {
+int maxDotProduct(vector<int>& a, vector<int>& b) {
         nums1 = a;
         nums2 = b;
         n = nums1.size();
