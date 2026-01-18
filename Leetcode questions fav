@@ -1,14 +1,7 @@
 
    
    
-            for (int j = i + 1; j < bottomLeft.Length; j++)
-            {
-                var rs0 = LargestSquareArea(bottomLeft[i], topRight[i], bottomLeft[j], topRight[j]);
-                rs = Math.Max(rs, rs0);
-            }
-        }
-        return rs;
-    }
+       
     private long LargestSquareArea(int[] a0, int[] b0, int[] a1, int[] b1)
     {
         var rs = 0L;
