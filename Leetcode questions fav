@@ -1,12 +1,5 @@
 
-      
-            }
-
-            // all bits are 1 → remove MSB
-            if ((1 << pos) > n) {
-                int highestBit = 31 - __builtin_clz(n);
-                n = n & ~(1 << highestBit);
-            }
+  
             // found a zero → clear the previous bit
             else {
                 n = n & ~(1 << (pos - 1));
