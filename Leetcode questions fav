@@ -1,16 +1,4 @@
-
-  
-            // found a zero → clear the previous bit
-            else {
-                n = n & ~(1 << (pos - 1));
-            }
-
-            Ans[i] = n;
-        }
-
-        return Ans;
-    }
-};class Solution {
+class Solution {
 public:
     bool isValid(vector<vector<int>>& pref, int k, int limit) {
         int n = pref.size();
