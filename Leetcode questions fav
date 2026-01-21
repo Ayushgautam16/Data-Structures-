@@ -1,5 +1,15 @@
 class Solution {
 public:
+    vector<int> minBitwiseArray(vector<int>& nums) {
+        vector<int> ans;
+        for(int n : nums) {
+            if(n != 2) ans.push_back(n - ((n + 1) & (-n - 1)) / 2);
+            else ans.push_back(-1);
+        }   
+        return ans;
+    }
+};class Solution {
+public:
     bool isValid(vector<vector<int>>& pref, int k, int limit) {
         int n = pref.size();
         int m = pref[0].size();
