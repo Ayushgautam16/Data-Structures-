@@ -1,17 +1,6 @@
 
 
  
-                j--;
-            else {
-                res = max(res, i + j);
-                freq[i]--;
-                freq[j]--;
-            }
-        }
-
-        return res;
-    }
-};
 class Solution {
 public:
     int minPair(vector<int> v){
