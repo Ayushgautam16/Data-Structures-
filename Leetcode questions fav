@@ -1,9 +1,4 @@
-class Solution {
-public:
-    int minPairSum(vector<int>& nums) {
-        int n = nums.size();
-        int size = 10;
-        while (size < n) size *= 10;
+ze *= 10;
         size = (n == 10000) ? 100000 : size + 1;
         vector<int> freq(size);
 
