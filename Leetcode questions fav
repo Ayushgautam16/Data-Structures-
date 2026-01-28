@@ -1,5 +1,5 @@
 
-using u16=unsigned short
+using u16=unsigned shor
 using u64=unsigned long long;
 using info=pair<unsigned, u16>; // (distance, vertex)
 
