@@ -1,5 +1,5 @@
 
-using u16=unsigned sh
+using u16=unsigned s
 using u64=unsigned long long;
 using info=pair<unsigned, u16>; // (distance, vertex)
 
