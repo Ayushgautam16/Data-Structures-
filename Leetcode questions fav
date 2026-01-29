@@ -46,7 +46,7 @@ public:
 
         return totalCost;
     }
-};
+}
 using u64=unsigned long long;
 using info=pair<unsigned, u16>; // (distance, vertex)
 
