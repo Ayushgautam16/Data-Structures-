@@ -47,7 +47,6 @@ public:
         return dp[i] = ans;
     }
 
-
     long long minimumCost(string source,string target,vector<string>& original,vector<string>& changed,
         vector<int>& cost
     ) {
