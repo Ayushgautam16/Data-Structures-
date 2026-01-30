@@ -19,7 +19,7 @@ public:
             ans = min(ans, solve(i + 1));
         }
 
-        // Option 2: try all substring replacements
+        // Option 2: try all substring replacement
 
         
         for (auto &p1 : mp) {
