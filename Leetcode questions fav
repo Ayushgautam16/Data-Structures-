@@ -29,6 +29,7 @@ public:
     int n;
     vector<long long> dp;
 
+
     long long solve(int i) {
         if (i == n) return 0;
         if (dp[i] != -1) return dp[i];
