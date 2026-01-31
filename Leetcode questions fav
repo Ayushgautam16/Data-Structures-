@@ -17,7 +17,8 @@ public:
 
         return res;
     }
-};
+}
+
 class Solution {
 public:
     const long long INF = 1e18;
