@@ -108,7 +108,8 @@ public:
 
         return ans;
     }
-};#include <vector>
+}
+#include <vector>
 #include <string>
 #include <algorithm>
 
