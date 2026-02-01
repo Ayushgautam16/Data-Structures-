@@ -94,7 +94,7 @@ public:
             if (!mp.count(changed[i]))  mp[changed[i]]  = cnt++;
         }
 
-        // Build distance matrix cnt*cnt
+        // Build distance matrix cnt*cn\
         dist.assign(cnt, vector<long long>(cnt, INF));
 
         for (int i = 0; i < cnt; i++) dist[i][i] = 0;
