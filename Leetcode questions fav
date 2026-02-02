@@ -13,7 +13,6 @@ class Solution {
         java.util.TreeSet<Integer> waiting = new java.util.TreeSet<>(
                 (a, b) -> nums[a] == nums[b] ? a - b : nums[a] - nums[b]
         );
-
         for (int i = 1; i <= dist + 1; i++) {
             using.add(i);
             windowSum += nums[i];
