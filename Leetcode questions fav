@@ -73,6 +73,7 @@ class Solution {
             waiting.add(idx);
         }
 
+
         result = Math.min(result, windowSum);
 
         for (int i = 1; i + dist + 1 < n; i++) {
