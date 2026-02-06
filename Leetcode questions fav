@@ -3,6 +3,9 @@ public:
     using ll=long long;
     static int minRemoval(vector<int>& nums, int k) {
         sort(nums.begin(), nums.end());
+        if ((ll)nums[0]*k>=nums.back()) return 0;
+        const int n=nums.size();
+        int ans=n;
 
 
 class Solution {
