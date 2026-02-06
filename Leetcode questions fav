@@ -8,7 +8,12 @@ public:
         int ans=n;
         for(int l=0, r=0; r<n; r++){
             const int x=nums[r];
-
+            while(l<r && (ll)nums[l]*k<x) l++;
+            ans=min(ans, n-(r-l+1));
+        }
+        return ans;
+    }
+};
 
 class Solution {
 public:
