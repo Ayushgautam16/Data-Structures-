@@ -6,6 +6,8 @@ public:
         if ((ll)nums[0]*k>=nums.back()) return 0;
         const int n=nums.size();
         int ans=n;
+        for(int l=0, r=0; r<n; r++){
+            const int x=nums[r];
 
 
 class Solution {
