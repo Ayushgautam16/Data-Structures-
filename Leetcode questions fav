@@ -1,5 +1,12 @@
 class Solution {
 public:
+    using ll=long long;
+    static int minRemoval(vector<int>& nums, int k) {
+        sort(nums.begin(), nums.end());
+
+
+class Solution {
+public:
     vector<int> constructTransformedArray(vector<int>& A) {
         int n = A.size();
         int SHIFT = 1 << 7;
