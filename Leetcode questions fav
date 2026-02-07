@@ -10,7 +10,6 @@ public:
                 b--;
             }
         }
-
         return res;
     }
 };
