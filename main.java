@@ -15,6 +15,7 @@ class Solution {
         }
         return true;
     }
+    
 }class Solution {
     public boolean hasAlternatingBits(int n) {
         int prev = 5;   // dummy value to indicate no previous bit yet
