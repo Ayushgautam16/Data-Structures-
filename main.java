@@ -4,7 +4,6 @@ class Solution {
         while(n > 0){
             int bit = n % 2;   // get last bit
             n /= 2;            // remove last bit
-            
             if(prev == 5){
                 prev = bit;    // first bit, just store it
             }else{
