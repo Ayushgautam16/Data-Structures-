@@ -12,6 +12,7 @@ public:
 
         return (int)seen.size() == target;
     }
+
 };
 
 class Solution {
