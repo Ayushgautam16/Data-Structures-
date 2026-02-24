@@ -1,5 +1,24 @@
 class Solution {
 public:
+    int sumRootToLeaf(TreeNode* root) {
+        return dfs(root, 0);
+    }
+
+private:
+    int dfs(TreeNode* node, int curr) {
+        if (!node) return 0;
+
+        curr = curr * 2 + node->val; // append this bit
+
+        if (!node->left && !node->right) // leaf
+            return curr;
+
+        return dfs(node->left, curr) + dfs(node->right, curr);
+    }
+};
+
+class Solution {
+public:
     bool hasAllCodes(string s, int k) {
         unordered_set<string> seen;
         int target = 1 << k;  // 2^k
