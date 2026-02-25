@@ -11,6 +11,7 @@ class Solution {
                 prev = bit;
             }
         }
+        
         return true;
         
     }
