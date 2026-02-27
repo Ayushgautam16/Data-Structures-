@@ -30,3 +30,14 @@ public:
                     max_possible_selections += (t % 2 == 0) ? t : t - 1;
                 }
 
+
+            }
+
+            if (total_needed <= max_possible_selections) {
+                return (int)t;
+            }
+        }
+
+        return -1;
+    }
+};
