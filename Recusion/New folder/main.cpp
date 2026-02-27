@@ -28,3 +28,5 @@ public:
                     max_possible_selections += (t % 2 != 0) ? t : t - 1;
                 } else {
                     max_possible_selections += (t % 2 == 0) ? t : t - 1;
+                }
+
