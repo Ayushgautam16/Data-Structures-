@@ -18,3 +18,13 @@ public:
 
         for (long long t = (Z + k - 1) / k; t <= n; ++t) {
             long long total_needed = t * k;
+
+            
+            if ((total_needed - Z) % 2 != 0) continue;
+
+            long long max_possible_selections = 0;
+            for (char c : s) {
+                if (c == '0') {
+                    max_possible_selections += (t % 2 != 0) ? t : t - 1;
+                } else {
+                    max_possible_selections += (t % 2 == 0) ? t : t - 1;
