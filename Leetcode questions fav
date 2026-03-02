@@ -15,6 +15,13 @@ public:
              if (grid[j][0] >= req) break;
             if (j == grid.size()) return -1;
             swaps += j;
+            grid.erase(grid.begin() + j);
+        }
+
+        return swaps;
+    }
+};
+    
 
    
 
