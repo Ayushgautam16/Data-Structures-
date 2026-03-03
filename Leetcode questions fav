@@ -1,5 +1,18 @@
 class Solution {
 public:
+    char findKthBit(int n, int k) {
+        bool flip = false; // whether we have inverted odd number of times
+
+        while (n > 1) {
+            int mid = 1 << (n - 1);      // 2^(n-1)
+            int len = (1 << n) - 1;      // 2^n - 1
+
+            if (k == mid) {
+                // middle is always '1', but may be flipped
+                return flip ? '0' : '1';
+
+class Solution {
+public:
     int minSwaps(vector<vector<int>>& grid) {
         int n = grid.size();
         for (int i = 0; i < n; i++) {
