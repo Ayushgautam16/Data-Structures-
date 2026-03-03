@@ -14,6 +14,9 @@ public:
 
             if (k > mid) {
                 // go to mirrored position on left, and invert once
+                k = len - k + 1;
+                flip = !flip;
+
 
 
 class Solution {
