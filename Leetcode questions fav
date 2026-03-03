@@ -10,6 +10,11 @@ public:
             if (k == mid) {
                 // middle is always '1', but may be flipped
                 return flip ? '0' : '1';
+            }
+
+            if (k > mid) {
+                // go to mirrored position on left, and invert once
+
 
 class Solution {
 public:
