@@ -16,6 +16,12 @@ public:
                 // go to mirrored position on left, and invert once
                 k = len - k + 1;
                 flip = !flip;
+            }
+
+            // now k is in left half -> corresponds to S_(n-1)
+            n--;
+        }
+
 
 
 
