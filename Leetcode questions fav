@@ -1,5 +1,13 @@
 class Solution {
 public:
+    int numSpecial(vector<vector<int>>& mat) {
+        int m = mat.size(), n = mat[0].size();
+        vector<int> row(m, 0), col(n, 0);
+
+    
+
+class Solution {
+public:
     char findKthBit(int n, int k) {
         bool flip = false; // whether we have inverted odd number of times
 
