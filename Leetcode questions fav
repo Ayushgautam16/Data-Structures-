@@ -1,5 +1,15 @@
 class Solution {
 public:
+    int minOperations(string s) {
+        int first1 = 0,ans1=0,ans2=0;
+        for(int i=0;i<s.length();i++){
+            if(s[i]-'0' != first1) {
+                ans1++;
+            }
+
+
+class Solution {
+public:
     int numSpecial(vector<vector<int>>& mat) {
         int m = mat.size(), n = mat[0].size();
         vector<int> row(m, 0), col(n, 0);
