@@ -6,6 +6,9 @@ public:
             if(s[i]-'0' != first1) {
                 ans1++;
             }
+            else{
+            // if(s[i]-'0' != first2) {
+                ans2++;
 
 
 class Solution {
