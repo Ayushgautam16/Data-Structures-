@@ -13,7 +13,6 @@ public:
             op[(s[i] ^ (n + i)) & 1]++;
             res = min(res, min(op[0], op[1]));
         }
-
         return res;
     }
 };
