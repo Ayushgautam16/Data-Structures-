@@ -20,7 +20,18 @@ class Solution {
 
                 if(z - limit - 1 >= 0) {
                     dp[z][o][0] = (dp[z][o][0] - dp[z-limit-1][o][1] + MOD) % MOD;
-  
+                }
+                // place 1 at the end
+                dp[z][o][1] = (dp[z][o-1][0] + dp[z][o-1][1]) % MOD;
+
+                if(o - limit - 1 >= 0) {
+                    dp[z][o][1] = (dp[z][o][1] - dp[z][o-limit-1][0] + MOD) % MOD;
+                }
+            }
+        }
+        return (int)((dp[zero][one][0] + dp[zero][one][1]) % MOD);
+    }
+}
  
 
    
