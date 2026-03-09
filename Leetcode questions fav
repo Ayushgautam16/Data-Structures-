@@ -13,6 +13,16 @@ class Solution {
         for(int j = 1; j <= Math.min(one, limit); j++) {
            dp[0][j][1] = 1;
         }
+     for(int z = 1; z <= zero; z++) {
+            for(int o = 1; o <= one; o++) {
+                // place 0 at the end
+                dp[z][o][0] = (dp[z-1][o][0] + dp[z-1][o][1]) % MOD;
+
+                if(z - limit - 1 >= 0) {
+                    dp[z][o][0] = (dp[z][o][0] - dp[z-limit-1][o][1] + MOD) % MOD;
+  
+ 
+
    
 
 class Solution {
