@@ -11,8 +11,9 @@ class Solution {
         }
         // base cases: only ones
         for(int j = 1; j <= Math.min(one, limit); j++) {
- 
-
+           dp[0][j][1] = 1;
+        }
+   
 
 class Solution {
 public:
