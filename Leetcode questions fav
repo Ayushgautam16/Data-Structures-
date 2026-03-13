@@ -15,7 +15,11 @@ public:
             long long m=l+(r-l)/2;
             long long x=f(m, workerTimes);
             if(x>=mountainHeight) r=m;
-  
+            else l=m+1;
+        }
+        return l;
+    }
+};
 
 
 class Solution {
