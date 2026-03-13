@@ -13,7 +13,9 @@ public:
         long long l=1, r=1e12*(long long)mountainHeight/wz;
         while(l<r){
             long long m=l+(r-l)/2;
-
+            long long x=f(m, workerTimes);
+            if(x>=mountainHeight) r=m;
+  
 
 
 class Solution {
