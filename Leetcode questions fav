@@ -8,6 +8,12 @@ public:
     }
     static long long minNumberOfSeconds(int mountainHeight, vector<int>& workerTimes) {
         int wz=workerTimes.size();
+        if (wz==1)
+            return (long long)workerTimes[0]*mountainHeight*(mountainHeight+1)/2;
+        long long l=1, r=1e12*(long long)mountainHeight/wz;
+        while(l<r){
+            long long m=l+(r-l)/2;
+
 
 
 class Solution {
