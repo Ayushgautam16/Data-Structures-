@@ -13,6 +13,8 @@ private:
             y = y / 2;
             x = (x * x) % mod;
         }
+      return res;
+    }
 
 
 
