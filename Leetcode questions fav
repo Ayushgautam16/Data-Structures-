@@ -15,6 +15,24 @@ private:
         }
       return res;
     }
+public:
+    Fancy() : a(1), b(0) {
+    }
+    
+    void append(int val) {
+        long long x = (val - b + mod) % mod;
+        this->val.push_back((x * modPow(a, mod - 2, mod)) % mod);
+    }
+    
+    void addAll(int inc) {
+        b = (b + inc) % mod;
+    }
+    
+    void multAll(int m) {
+        a = (a * m) % mod;
+        b = (b * m) % mod;
+    }
+    
 
 
 
