@@ -1,3 +1,23 @@
+class Fancy {
+private:
+    const int mod = 1e9 + 7;
+    vector<long long> val;
+    long long a, b;
+    long long modPow(long long x, long long y, long long mod) {
+        long long res = 1;
+        x = x % mod;
+        while (y > 0) {
+            if (y % 2 == 1) {
+                res = (res * x) % mod;
+            }
+            y = y / 2;
+            x = (x * x) % mod;
+        }
+
+
+
+
+
 class Solution {
 public:
     inline static long long f(long long t, vector<int>& workerTimes){
