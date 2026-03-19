@@ -5,6 +5,10 @@ public:
         int ans = 0;
 
         vector<int> px(n, 0), py(n, 0);
+       for (int i = 0; i < m; i++) {
+            int rowX = 0, rowY = 0;
+
+    
 
  
 
