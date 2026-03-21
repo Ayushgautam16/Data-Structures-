@@ -45,3 +45,6 @@ public:
         return -1;
     }
 };
+for (int i = 0; i < k >> 1; i++)
+            for (int j = 0; j < k; j++)
+                swap(grid[x + i][y + j], grid[x + k - 1 - i][y + j]);
