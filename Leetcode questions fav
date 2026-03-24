@@ -11,6 +11,11 @@ public:
             for (int j = m - 1; j >= 0; j--) {
                 p[i][j] = suffix;
                 suffix = (suffix * (grid[i][j] % MOD)) % MOD;
+           }
+        }
+
+        long long prefix = 1;
+        for (int i = 0; i < n; i++) {
  
 class Solution {
 public:
