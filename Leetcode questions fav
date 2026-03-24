@@ -1,4 +1,17 @@
+// This solution was implemented with assistance from ChatGPT
+class Solution {
+public:
+    vector<vector<int>> constructProductMatrix(vector<vector<int>>& grid) {
+        const int MOD = 12345;
+        int n = grid.size(), m = grid[0].size();
+        vector<vector<int>> p(n, vector<int>(m));
 
+        long long suffix = 1;
+        for (int i = n - 1; i >= 0; i--) {
+            for (int j = m - 1; j >= 0; j--) {
+                p[i][j] = suffix;
+                suffix = (suffix * (grid[i][j] % MOD)) % MOD;
+ 
 class Solution {
 public:
 
