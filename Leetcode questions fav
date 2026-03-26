@@ -1,3 +1,26 @@
+static const int M=1e5+1;
+static bitset<M> tSeen, bSeen, lSeen, rSeen;
+
+class Solution {
+public:
+    static bool canPartitionGrid(vector<vector<int>>& grid) {
+        const int r=grid.size(), c=grid[0].size();
+        long long Tsum=0;
+        
+        tSeen.reset(); bSeen.reset(); lSeen.reset(); rSeen.reset();
+        int xMax=0;
+        for (auto& row : grid) {
+            for (int x : row) {
+                Tsum+=x;
+                xMax=max(x, xMax);
+            }
+        }
+
+        // Horizontal Cuts
+        long long top=0;
+        // First pass for Top removals
+ 
+
 class Solution {
 public:
     int n, m;
