@@ -1,3 +1,14 @@
+class Solution {
+public:
+    bool checkStrings(string s1, string s2) {
+        int n = s1.size();
+        string s1even="";
+        string s1odd="";
+        string s2even="";
+        string s2odd="";
+
+ 
+
 static const int M=1e5+1;
 static bitset<M> tSeen, bSeen, lSeen, rSeen;
 
