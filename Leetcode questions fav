@@ -23,7 +23,23 @@ public:
                 for (int j = i + m - 1; j >= i; j--) {
                     if (str2[j - i] != s[j]) {
                         flag = true;
-  
+                    }
+                    if (idx == -1 && !fixed[j]) {
+                        idx = j;
+                    }
+                }
+                if (flag) {
+                    continue;
+                } else if (idx != -1) {
+                    s[idx] = 'b';
+                } else {
+                    return "";
+                }
+            }
+        }
+        return s;
+    }
+};
  
 
 
