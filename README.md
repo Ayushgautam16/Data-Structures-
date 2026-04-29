@@ -3,7 +3,6 @@
 Welcome to my **Daily DSA (DDSA)** journey! 🚀  
 This repository documents my daily progress while following the **A2Z DSA Sheet** curated by [Striver (takeUforward)](https://takeuforward.org/).  
 It covers **every essential topic** in **Data Structures and Algorithms**, from beginner to advanced, with a well-organized sequence and company-relevant problems.
-
 ---
 
 ## 🗂️ About the A2Z DSA Sheet
